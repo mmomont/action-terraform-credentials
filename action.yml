@@ -1,0 +1,13 @@
+name: 'action-terraform-credentials'
+description: 'Configure ~/.terraformrc file'
+inputs:
+  tf-api-token:
+    description: 'TFC API TOKEN'
+    required: true
+  tf-api-hostname:
+    description: 'TFC API HOSTNAME'
+    required: false
+    default: 'app.terraform.io'    
+runs:
+  using: 'node12'
+  main: 'index.js'
