@@ -17,7 +17,7 @@ This action setups credentials for terraform. Simply it just fills hostname and 
 ## Example usage
 
 ```bash
-uses: mmomont/action-terraform-credentials@v1
+uses: mmomont/action-terraform-credentials@v1.0.1
 with:
   tf-api-token: 'your-token'
 ```
